@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       drawer: const Drawer(),
       body: const Center(
-        child: Text('WELCOME! to Home Page'),
+        child: Text('Welcome! to Home Page'),
       ),
     );
   }
