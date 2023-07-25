@@ -12,8 +12,16 @@ class HomePage extends StatelessWidget {
         ),
       ),
       drawer: const Drawer(),
-      body: const Center(
-        child: Text('Welcome! to Home Page'),
+      body: Container(
+        color: Colors.white,
+        child: Column(
+          children: [
+            Image.asset(
+              'assets/images/home2.jpg',
+              fit: BoxFit.cover,
+            ),
+          ],
+        ),
       ),
     );
   }
