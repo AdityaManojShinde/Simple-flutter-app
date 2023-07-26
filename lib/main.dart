@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,
       // ignore: prefer_const_constructors
-      initialRoute: '/',
+      initialRoute: AppRoutes.homeRoute,
       routes: {
-        '/': (context) => const LoginPage(),
+        // '/': (context) => const LoginPage(),
         AppRoutes.homeRoute: (context) => const HomePage(),
         AppRoutes.loginRoute: (context) => const LoginPage()
       },
